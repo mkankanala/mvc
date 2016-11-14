@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>Activation</title>
+<style type="text/css">
+body {
+	background-image: url('http://crunchify.com/bg.png');
+}
+</style>
+</head>
+<body>
+<form:form method="POST" action="/HelloWeb/addStudent">
+	<br>
+	<div style="text-align:center">
+		<h2>
+			Hey You..!! Please Select Your Options.<br> <br>
+		</h2>
+		 <select>
+  			<option value="sit1">SIT1</option>
+  			<option value="sitb">SITB</option>
+  			<option value="sita">SITA</option>
+  			<option value="sitci">SITCI</option>
+		</select> </br>
+
+		<input type="submit" value="Submit"/>
+	</div>
+	</form:form>
+</body>
+</html>
